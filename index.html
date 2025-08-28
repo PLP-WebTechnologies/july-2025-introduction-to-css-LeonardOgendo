@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & The Box Model</title>
+    <meta name="description" content="A simple webpage demonstrating CSS basics and the box model.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <h1>CSS Basics & The Box Model</h1>
+        <p>Learning how spacing, borders, and layout shape web pages</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="card">
+            <h2>What is the Box Model?</h2>
+            <p>
+                Every element on a web page is a rectangular box made of four layers:
+                <strong>content, padding, border, and margin.</strong> 
+                Understanding how these layers interact helps you control spacing and layout precisely.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Key Properties</h2>
+            <ul>
+                <li><strong>Margin:</strong> Space outside the element’s border.</li>
+                <li><strong>Border:</strong> The outline around the element.</li>
+                <li><strong>Padding:</strong> Space between content and border.</li>
+                <li><strong>Content:</strong> The actual text, image, or element inside.</li>
+            </ul>
+        </section>
+
+        <section class="card highlight">
+            <h2>Experiment!</h2>
+            <p>Click below to see how padding, borders, and margins affect layout.</p>
+            <button class="btn">Try It</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2025 CSS Basics Assignment</p>
+    </footer>
+</body>
+</html>
